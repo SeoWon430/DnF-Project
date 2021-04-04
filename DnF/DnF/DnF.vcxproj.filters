@@ -1,0 +1,417 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="Collider\Collider.cpp">
+      <Filter>Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\BinaryFile.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Math.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Path.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\String.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Xml.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Systems\Device.cpp">
+      <Filter>Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Systems\DirectWrite.cpp">
+      <Filter>Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Systems\Keyboard.cpp">
+      <Filter>Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Systems\MouseManager.cpp">
+      <Filter>Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Systems\SoundManager.cpp">
+      <Filter>Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Systems\Time.cpp">
+      <Filter>Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Renders\Animation.cpp">
+      <Filter>Renders</Filter>
+    </ClCompile>
+    <ClCompile Include="Renders\Canvas.cpp">
+      <Filter>Renders</Filter>
+    </ClCompile>
+    <ClCompile Include="Renders\Clip.cpp">
+      <Filter>Renders</Filter>
+    </ClCompile>
+    <ClCompile Include="Renders\RenderTarget.cpp">
+      <Filter>Renders</Filter>
+    </ClCompile>
+    <ClCompile Include="Renders\Shader.cpp">
+      <Filter>Renders</Filter>
+    </ClCompile>
+    <ClCompile Include="Renders\Sprite.cpp">
+      <Filter>Renders</Filter>
+    </ClCompile>
+    <ClCompile Include="Viewer\Camera.cpp">
+      <Filter>Viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="Viewer\Following.cpp">
+      <Filter>Viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="Viewer\Freedom.cpp">
+      <Filter>Viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\S00_SeriaRoom.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\S01_DungeonSiroco.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\Rect.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\Background.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\GameObject.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\Player\Skill\A_Attack.cpp">
+      <Filter>Objects\Player\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\Player\Skill\A_Buff.cpp">
+      <Filter>Objects\Player\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\Player\Skill\AA00_Attack.cpp">
+      <Filter>Objects\Player\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\Player\Skill\AB00_NeoBuff.cpp">
+      <Filter>Objects\Player\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\Player\Skill\Skill.cpp">
+      <Filter>Objects\Player\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\Player\Skill\Skill_Active.cpp">
+      <Filter>Objects\Player\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\Player\Skill\Skill_Passive.cpp">
+      <Filter>Objects\Player\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\Player\Skill\SkillSet.cpp">
+      <Filter>Objects\Player\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\Player\Player.cpp">
+      <Filter>Objects\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\Player\Player_Thief.cpp">
+      <Filter>Objects\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\Player\PlayInterface.cpp">
+      <Filter>Objects\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\Monster\Leveche.cpp">
+      <Filter>Objects\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\Monster\Monster.cpp">
+      <Filter>Objects\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\Player\Skill\AA02_Cardioclasis.cpp">
+      <Filter>Objects\Player\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\Player\Skill\AA01_ShadowCut.cpp">
+      <Filter>Objects\Player\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\Player\Skill\AA03_BladeGust.cpp">
+      <Filter>Objects\Player\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider\ColliderFactory.cpp">
+      <Filter>Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\Player\Skill\Action.cpp">
+      <Filter>Objects\Player\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider\CylinderCollider.cpp">
+      <Filter>Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider\BoxCollider.cpp">
+      <Filter>Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\Player\Skill\AA04_Assassination.cpp">
+      <Filter>Objects\Player\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\Player\Skill\AA05_Extractheart.cpp">
+      <Filter>Objects\Player\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\SceneDungeon.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\Monster\PatternSet.cpp">
+      <Filter>Objects\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\Monster\Pattern.cpp">
+      <Filter>Objects\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\Monster\P01_Claw.cpp">
+      <Filter>Objects\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\Monster\P02_Thorn.cpp">
+      <Filter>Objects\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\Monster\P03_Jump.cpp">
+      <Filter>Objects\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\Effect.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Collider\Collider.h">
+      <Filter>Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\BinaryFile.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Math.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Path.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\String.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Xml.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Systems\Device.h">
+      <Filter>Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Systems\DirectWrite.h">
+      <Filter>Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Systems\Keyboard.h">
+      <Filter>Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Systems\MouseManager.h">
+      <Filter>Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Systems\SoundManager.h">
+      <Filter>Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Systems\Time.h">
+      <Filter>Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Renders\Animation.h">
+      <Filter>Renders</Filter>
+    </ClInclude>
+    <ClInclude Include="Renders\Canvas.h">
+      <Filter>Renders</Filter>
+    </ClInclude>
+    <ClInclude Include="Renders\Clip.h">
+      <Filter>Renders</Filter>
+    </ClInclude>
+    <ClInclude Include="Renders\RenderTarget.h">
+      <Filter>Renders</Filter>
+    </ClInclude>
+    <ClInclude Include="Renders\Shader.h">
+      <Filter>Renders</Filter>
+    </ClInclude>
+    <ClInclude Include="Renders\Sprite.h">
+      <Filter>Renders</Filter>
+    </ClInclude>
+    <ClInclude Include="Viewer\Camera.h">
+      <Filter>Viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="Viewer\Following.h">
+      <Filter>Viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="Viewer\Freedom.h">
+      <Filter>Viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="Viewer\IFollowing.h">
+      <Filter>Viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\S00_SeriaRoom.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\S01_DungeonSiroco.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\Scene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\Rect.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\Background.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\GameObject.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="enum.h" />
+    <ClInclude Include="Objects\Player\Skill\A_Attack.h">
+      <Filter>Objects\Player\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\Player\Skill\A_Buff.h">
+      <Filter>Objects\Player\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\Player\Skill\AA00_Attack.h">
+      <Filter>Objects\Player\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\Player\Skill\AB00_NeoBuff.h">
+      <Filter>Objects\Player\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\Player\Skill\SkillSet.h">
+      <Filter>Objects\Player\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\Player\Skill\Skill.h">
+      <Filter>Objects\Player\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\Player\Skill\Skill_Active.h">
+      <Filter>Objects\Player\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\Player\Skill\Skill_Passive.h">
+      <Filter>Objects\Player\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\Player\Player.h">
+      <Filter>Objects\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\Player\Player_Thief.h">
+      <Filter>Objects\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\Player\PlayInterface.h">
+      <Filter>Objects\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\Monster\Leveche.h">
+      <Filter>Objects\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\Monster\Monster.h">
+      <Filter>Objects\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\Player\Skill\AA02_Cardioclasis.h">
+      <Filter>Objects\Player\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\Player\Skill\AA01_ShadowCut.h">
+      <Filter>Objects\Player\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\Player\Skill\AA03_BladeGust.h">
+      <Filter>Objects\Player\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Queue.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider\ColliderFactory.h">
+      <Filter>Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\Player\Skill\Action.h">
+      <Filter>Objects\Player\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider\CylinderCollider.h">
+      <Filter>Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider\BoxCollider.h">
+      <Filter>Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\Player\Skill\AA04_Assassination.h">
+      <Filter>Objects\Player\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\Player\Skill\AA05_Extractheart.h">
+      <Filter>Objects\Player\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\SceneDungeon.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\Monster\PatternSet.h">
+      <Filter>Objects\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\Monster\Pattern.h">
+      <Filter>Objects\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\Monster\P01_Claw.h">
+      <Filter>Objects\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\Monster\P02_Thorn.h">
+      <Filter>Objects\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\Monster\P03_Jump.h">
+      <Filter>Objects\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\Effect.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="_Shaders">
+      <UniqueIdentifier>{04c5118e-ca8a-43af-8a46-659b71ce6621}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collider">
+      <UniqueIdentifier>{c1c5d989-f670-42e2-9d30-ba0707eab165}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renders">
+      <UniqueIdentifier>{e6a2abfa-c0dc-48b9-8f10-28ecb8c10c6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes">
+      <UniqueIdentifier>{fbc1207d-903c-49ef-a54d-98db987ffc70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects">
+      <UniqueIdentifier>{cdfffc64-786e-43bd-a368-fe540b486f4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems">
+      <UniqueIdentifier>{c43bc25c-c3bd-42b3-9e49-9d50f6344bdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{6d85adfb-a895-43e3-8cdf-02ff70cf671e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Viewer">
+      <UniqueIdentifier>{c13a4423-5d17-4e15-a8d6-57ecec2073bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Player">
+      <UniqueIdentifier>{17986471-6d14-40c8-8563-68a79c45408c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Monster">
+      <UniqueIdentifier>{cde1cfab-45da-476d-8674-0258afbb8182}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Player\Skill">
+      <UniqueIdentifier>{a30b892a-3e72-43a1-a79a-141a8b791785}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="_Shaders\Rect.fx">
+      <Filter>_Shaders</Filter>
+    </None>
+    <None Include="_Shaders\Sprite.fx">
+      <Filter>_Shaders</Filter>
+    </None>
+    <None Include="_Shaders\Texture.fx">
+      <Filter>_Shaders</Filter>
+    </None>
+    <None Include="_Shaders\Bounding.fx">
+      <Filter>_Shaders</Filter>
+    </None>
+    <None Include="_Shaders\Character.fx">
+      <Filter>_Shaders</Filter>
+    </None>
+    <None Include="_Shaders\Effect.fx">
+      <Filter>_Shaders</Filter>
+    </None>
+    <None Include="_Shaders\Header.fx">
+      <Filter>_Shaders</Filter>
+    </None>
+    <None Include="_Shaders\HpMonster.fx">
+      <Filter>_Shaders</Filter>
+    </None>
+    <None Include="_Shaders\Skill_Icon.fx">
+      <Filter>_Shaders</Filter>
+    </None>
+    <None Include="_Shaders\HpPlayer.fx">
+      <Filter>_Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
